@@ -1,6 +1,6 @@
 # AI-Powered Network Anomaly Detection Lab
 
-This project is my take on how FAANG and Fortune 500 companies could build an AI-powered monitoring system for large-scale networks. It’s not just a lab — I designed it to look and feel like a production setup, with streaming pipelines, ML-driven detection, and live dashboards.
+This project is my take on how FAANG and Fortune 500 companies could build an AI powered monitoring system for large-scale networks. It’s not just a lab. I designed it to look and feel like a production setup, with streaming pipelines, ML driven detection, and live dashboards.
 
 ---
 
