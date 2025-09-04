@@ -1,0 +1,15 @@
+name: CI Pipeline
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install deps
+        run: pip install scikit-learn joblib numpy pyspark kafka-python
+      - name: Run Anomaly Detection
+        run: python anomaly_detection.py
